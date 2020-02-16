@@ -1,0 +1,8 @@
+{
+  "script" : "if [ $NOVA_TASK_NAME == \"build\" ]; then\n    yarn run build\nfi\n    \nif [ $NOVA_TASK_NAME == \"run\" ]; then\n    yarn run develop\nfi",
+  "actions" : [
+    "build",
+    "run"
+  ],
+  "identifier" : "714B0CD5-9EAF-4CE1-893C-2BDABB859288"
+}
